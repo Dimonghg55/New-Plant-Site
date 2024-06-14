@@ -1,0 +1,30 @@
+
+
+.wrapper{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    /* width: 95vw; */
+    /* flex: 1 1; */
+    height: 500px;
+    backdrop-filter: blur(10px);
+    background-color: rgb(255 255 255 / 6%);
+    border-radius: 50px;
+    border: white 0.5px solid;
+
+
+}
+
+.wrapper > img{
+    position: relative;;
+    top: -120px;
+}
+
+.carousel-text{
+    /* color: #FFFFFF; */
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    background-color: rgb(red, green, blue);
+}
